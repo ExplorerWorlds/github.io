@@ -9,28 +9,6 @@
         <link rel="stylesheet" href="github.io/index.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         <title>Download Heads</title>
-        <script>
-            function validateForm() {
-                let x = document.getElementById('serial-input').value;
-                let lenght = document.getElementById('serial-input').value.lenght;
-                var serial = parseInt(x, 10)
-                if (!serial) {
-                    alert("You must enter a serial number");
-                    throw new Error("You must enter a serial number");
-                    return false;
-                    }
-                if (serial > 10000){
-                    alert("Your serial number does not exist");
-                    throw new Error("Your serial number does not exist");
-                    return false;
-                    }
-                if (serial == 0){
-                alert("Your serial number does not exist");
-                throw new Error("Your serial number does not exist");
-                return false;
-                }
-                }
-        </script>
     </head>
     <body>
 
@@ -39,7 +17,7 @@
             <div class="row">
                 <div class='col'>
                     <div class="intro">
-                        <img class='logo' src="./assets/images/logo.png">
+                        <img class='logo' src="logo.png">
                         <h1 class="mt-4">Download your DHs files</h1>
                         <p>A simple way to download your favourite DeadHeads files.
                             </br>Files will be download in their native .fbx and .png format

@@ -1,6 +1,0 @@
-@font-face {
-    font-family: 'Vimland';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Vimland'), url('https://fonts.cdnfonts.com/s/50148/Vimland-9YmW2.woff') format('woff');
-}

@@ -119,6 +119,9 @@ p {
     max-width: auto;
     height: 196px;
 }
+#underworld{
+    font-weight: 480;
+}
 
 footer {
     margin-top: 124px;
